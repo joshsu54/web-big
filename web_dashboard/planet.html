@@ -220,21 +220,6 @@
                         transform: translate(-50%, -50%) rotate(${angle}deg) translateX(250px) rotate(-${angle}deg);
                         animation: counter-rotate 40s linear infinite;
                     `;
-                    
-                    const label = document.createElement('span');
-                    label.innerText = pName;
-                    label.style.cssText = `
-                        position: absolute;
-                        top: 30px;
-                        left: 50%;
-                        transform: translateX(-50%);
-                        color: #fff;
-                        font-size: 10px;
-                        white-space: nowrap;
-                        text-shadow: 0 0 5px ${color};
-                    `;
-                    
-                    planetDiv.appendChild(label);
                     orbitContainer.appendChild(planetDiv);
                  });
                  
