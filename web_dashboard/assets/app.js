@@ -1121,8 +1121,8 @@ window.bindMissions = function() {
         startIdx = 0;
         endIdx = 12;
       } else if (viewGalaxy && viewGalaxy.style.display !== 'none') {
-        startIdx = 12;
-        endIdx = 36;
+        startIdx = 0;
+        endIdx = 24;
       } else if (viewUniverse && viewUniverse.style.display !== 'none') {
         startIdx = 0;
         endIdx = 36;
